@@ -50,14 +50,40 @@ const productList =[
 
 console.log(productList);
 
-let inStockProducts =  productList.filter(
-    function product(params){
-        return productFilter(product);
+//let inStockProducts =  productList.filter(
+  //  function product(params){
+    //    return productFilter(product);
+    //}
+//);
+
+//function productFilter(product){
+  //  return product.inStock ==true;
+//}
+
+//console.log(inStockProducts);
+
+//let inStockProducts =
+  //  productList.filter(product => product.inStock == true);
+   // console.log(inStockProducts);
+
+   function addNumbers(num1, num2){
+    return num1 + num2;
+   }
+
+   console.log(addNumbers(5, 10));
+
+   let getSum = function(num1, num2){
+    return num1 + num2;
+   }
+
+   console.log(getSum(5, 10));
+
+   let getTotal=(num1, num2) =>{
+        return num1 + num2;
     }
-);
+    console.log(getTotal(5, 10));
 
-function productFilter(product){
-    return product.inStock ==true;
-}
+    //sorting
 
-console.log(inStockProducts);
+    
+    
